@@ -5,7 +5,7 @@
 vim.keymap.set({ "n", "v" }, "J", "5j", {})
 vim.keymap.set({ "n", "v" }, "K", "5k", {})
 vim.keymap.set("n", "<C-a>", "ggVG", {})
-vim.keymap.set("n", "<leader>i", function()
+vim.keymap.set("n", "<C-i>", function()
   vim.cmd("vs")
   vim.cmd("wincmd l")
   vim.cmd("e out")
